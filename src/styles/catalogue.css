@@ -1,0 +1,51 @@
+#catalog > h2 {
+  font-size: 1.2rem;
+  background-color: var(--secondary-color);
+  padding: 15px 0px;
+}
+#catalog > section {
+  padding: 25px 0px;
+}
+.fr-card {
+  position: relative;
+  padding: 50px;
+  transition: 0.4s ease-in-out;
+}
+.fr-card > .container {
+  position: relative;
+}
+.fr-card > .container > h3 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 15px 0px;
+  background-color: rgba(235, 235, 235, 0.664);
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 1500px) {
+  .fr-card {
+    padding: 25px;
+  }
+  .fr-card > .container > h3 {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  #catalog > h2 {
+    font-size: 0.9rem;
+    background-color: var(--secondary-color);
+    padding: 15px 0px;
+  }
+  .fr-card {
+    padding: 10px;
+  }
+  .fr-card > .container > h3 {
+    font-size: 0.8rem;
+  }
+
+  .fr-card > p {
+    font-size: 0.8em;
+  }
+}

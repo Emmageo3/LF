@@ -1,0 +1,294 @@
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* MAX 576 px */
+.col-12{
+    width: 100%;
+}
+.col-11{
+    width: 91.66666%;
+}
+.col-10{
+    width: 83.33333%;
+}
+.col-9{
+    width: 75%;
+}
+.col-8{
+    width: 66.66666%;
+}
+.col-7{
+    width: 58.33333%;
+}
+.col-6{
+    width: 50%;
+}
+.col-5{
+    width: 41.66666%;
+}
+.col-4{
+    width: 33.333333%;
+}
+.col-3{
+    width: 25%;
+}
+.col-2{
+    width: 16.66666%;
+}
+.col-1{
+    width: 8.33333%;
+}
+.col-0{
+    width: 0%;
+}
+/* SM */
+@media screen and (min-width: 576px){
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-11{
+        width: 91.66666%;
+    }
+    .col-sm-10{
+        width: 83.33333%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-8{
+        width: 66.66666%;
+    }
+    .col-sm-7{
+        width: 58.33333%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-5{
+        width: 41.66666%;
+    }
+    .col-sm-4{
+        width: 33.333333%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-2{
+        width: 16.66666%;
+    }
+    .col-sm-1{
+        width: 8.33333%;
+    }
+    .col-sm-0{
+        width: 0%;
+    }
+}
+/* MD */
+@media screen and (min-width: 768px){
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-11{
+        width: 91.66666%;
+    }
+    .col-md-10{
+        width: 83.33333%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-8{
+        width: 66.66666%;
+    }
+    .col-md-7{
+        width: 58.33333%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-5{
+        width: 41.66666%;
+    }
+    .col-md-4{
+        width: 33.333333%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-2{
+        width: 16.66666%;
+    }
+    .col-md-1{
+        width: 8.33333%;
+    }
+    .col-md-0{
+        width: 0%;
+    }
+}
+/* LG */
+@media screen and (min-width: 992px){
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-11{
+        width: 91.66666%;
+    }
+    .col-lg-10{
+        width: 83.33333%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-8{
+        width: 66.66666%;
+    }
+    .col-lg-7{
+        width: 58.33333%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-5{
+        width: 41.66666%;
+    }
+    .col-lg-4{
+        width: 33.333333%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-2{
+        width: 16.66666%;
+    }
+    .col-lg-1{
+        width: 8.33333%;
+    }
+    .col-lg-0{
+        width: 0%;
+    }
+}
+/* XL */
+@media screen and (min-width: 1200px){
+    .col-xl-12{
+        width: 100%;
+    }
+    .col-xl-11{
+        width: 91.66666%;
+    }
+    .col-xl-10{
+        width: 83.33333%;
+    }
+    .col-xl-9{
+        width: 75%;
+    }
+    .col-xl-8{
+        width: 66.66666%;
+    }
+    .col-xl-7{
+        width: 58.33333%;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+    .col-xl-5{
+        width: 41.66666%;
+    }
+    .col-xl-4{
+        width: 33.333333%;
+    }
+    .col-xl-3{
+        width: 25%;
+    }
+    .col-xl-2{
+        width: 16.66666%;
+    }
+    .col-xl-1{
+        width: 8.33333%;
+    }
+    .col-xl-0{
+        width: 0%;
+    }
+
+}
+/* XXL */
+@media screen and (min-width: 1400px){
+    .col-xxl-12{
+        width: 100%;
+    }
+    .col-xxl-11{
+        width: 91.66666%;
+    }
+    .col-xxl-10{
+        width: 83.33333%;
+    }
+    .col-xxl-9{
+        width: 75%;
+    }
+    .col-xxl-8{
+        width: 66.66666%;
+    }
+    .col-xxl-7{
+        width: 58.33333%;
+    }
+    .col-xxl-6{
+        width: 50%;
+    }
+    .col-xxl-5{
+        width: 41.66666%;
+    }
+    .col-xxl-4{
+        width: 33.333333%;
+    }
+    .col-xxl-3{
+        width: 25%;
+    }
+    .col-xxl-2{
+        width: 16.66666%;
+    }
+    .col-xxl-1{
+        width: 8.33333%;
+    }
+    .col-xxl-0{
+        width: 0%;
+    }
+
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.row, .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row-between, .column-between{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.column-between{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-between{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row-left, .column-top{
+    justify-content: flex-start;
+}
+.row-right, .column-bottom{
+    justify-content: flex-end;
+}
+.column-left, .row-top{
+    align-items: flex-start;
+}
+.column-right, .row-bottom{
+    align-items: flex-end;
+}

@@ -1,0 +1,22 @@
+.client-card>div {
+    padding: 5px;
+    background-color: var(--grey-color);
+    border: 1px solid var(--black-color);
+    word-break: break-all;
+    text-align: left;
+}
+
+.client-card {
+    padding: 5px;
+}
+
+#delete-client {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#delete-client > input{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}

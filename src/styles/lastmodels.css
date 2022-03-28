@@ -1,0 +1,32 @@
+.fr-model>div {
+  padding: 0px;
+  padding-bottom: 25px;
+  background-color: var(--white-color);
+}
+
+.fr-model>div>a {
+  font-size: 0.9rem;
+}
+
+.fr-model {
+  padding: 25px;
+}
+
+.fr-model>* {
+  margin: 15px;
+}
+
+.fr-model>div>* {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 992px) {
+  .fr-model {
+    padding: 10px;
+  }
+
+  .fr-model>* {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,55 @@
+#testimonials {
+  padding: 50px 20px;
+  position: relative;
+}
+#testimonials > .slide {
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#testimonials > .slide:first-child{
+  left: 10px;
+}
+#testimonials > .slide:last-child {
+  right: 10px;
+}
+.comment{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+.comment > * {
+    margin: 10px;
+    padding: 5px 5px;
+}
+.comment > img {
+    border-radius: 100%;
+}
+@media screen and (max-width: 992px) {
+  #testimonials {
+    padding: 30px 0px;
+  }
+  .comment{
+      width: 30%!important;
+      padding: 2px;
+      font-size: 0.5em;
+      margin: 3px;
+  }
+  .comment > * {
+      margin: 2px;
+      padding: 2px 2px;
+  }
+  #testimonials > .slide{
+    font-size: 1.2em;
+  }
+  #testimonials > .slide:first-child{
+    left: 0px;
+  }
+  #testimonials > .slide:last-child {
+    right: 0px;
+  }
+}
